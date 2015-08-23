@@ -14,4 +14,4 @@ You can find additional information about the variables, data and transformation
 Before running script:
 1. Download the data source (found here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and put into a folder on your local drive. This creates a UCI HAR Dataset folder.
 2. Put run_analysis.R in the UCI HAR Dataset folder, then set it as your working directory using setwd() function in RStudio.
-3. Run source("run_analysis.R"), then it will generate a new file tidy_data.txt in your working directory.
+3. Run source("run_analysis.R"), then it will generate a new file tidy_data.txt in your working directory. Script starts where you set your directory.
