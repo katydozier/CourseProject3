@@ -12,6 +12,6 @@ You should create one R script called run_analysis.R that does the following:
 You can find additional information about the variables, data and transformations in the CodeBook.MD file.
 
 Before running script:
-Download the data source and put into a folder on your local drive. This creates a UCI HAR Dataset folder.
+Download the data source (found here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and put into a folder on your local drive. This creates a UCI HAR Dataset folder.
 Put run_analysis.R in the UCI HAR Dataset folder, then set it as your working directory using setwd() function in RStudio.
 Run source("run_analysis.R"), then it will generate a new file tidy_data.txt in your working directory.
