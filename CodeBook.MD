@@ -4,29 +4,29 @@ Introduction
 Merge the training and the test sets to create one data set.
 
 After setting the source directory, read in the training data into the following tables:
-features reads in features.txt
-activity type reads in activity_labels.txt
-subjectTrain reads in subject_train.txt
-XTrain reads in x_train.txt
-yTrain reads in y_train.txt
+<br>features reads in features.txt
+<br>activity type reads in activity_labels.txt
+<br>subjectTrain reads in subject_train.txt
+<br>XTrain reads in x_train.txt
+<br>yTrain reads in y_train.txt
 
 Assign the following column names to training data:
-activity type
-subjectTrain
-xTrain
-yTrain
+<br>activity type
+<br>subjectTrain
+<br>xTrain
+<br>yTrain
 
 Create final training data set by merging yTrain, subjectTrain and xTrain.
 
 Read in the test data into the following tables:
-sujectTest reads in subject_test.txt
-xTest reads in x_test.txt
-yTest reads in y_test.txt
+<br>sujectTest reads in subject_test.txt
+<br>xTest reads in x_test.txt
+<br>yTest reads in y_test.txt
 
 Assign the following column names to test data:
-subjectTest
-xTest
-yTest
+<br>subjectTest
+<br>xTest
+<br>yTest
 
 Create final test data set by merging yTrain, subjectTrain and xTrain.
 
